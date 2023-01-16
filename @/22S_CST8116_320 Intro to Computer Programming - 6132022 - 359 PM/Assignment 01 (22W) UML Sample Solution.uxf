@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>160</y>
+      <w>540</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>WoodWorker
+--
+
+--
++calculateTablesPerCan(surfaceArea:double, coats:int):double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>310</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>CircularTableTop
+--
+-diameter:double
+--
++CircularTableTop()
++CircularTableTop(diameter:double)
++getDiameter():double
++setDiameter(diameter:double):void
++calculateSurfaceArea():double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>250</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Assignment01
+--
+
+--
+_+main(args:String[]):void_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>350</x>
+      <y>20</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>UML Class Diagram by
+Stanley Pieda
+Assignment 01 (22W) 
+Sample Solution
+UML Class Diagrams</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>280</x>
+      <y>300</y>
+      <w>280</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Professors note, method main 
+is static so it is underlined 
+in UML, however students will 
+not be required to do this for
+Assignment01.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>290</y>
+      <w>60</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=..</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;30.0</additional_attributes>
+  </element>
+</diagram>
